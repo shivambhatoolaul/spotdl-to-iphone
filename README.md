@@ -1,16 +1,10 @@
 # 🎧 spotdl-to-iphone
 
+With all the music in the world instantly available on streaming services, music has started to feel a bit like McDonald's for me. I miss having a library that felt like my own curated collection instead of the work of an algorithm. With the resurgence of older—offline—tech like the iPod, or even wired earphones, it's clear to me that others also want to use tech more intentionally.
 
-A simple script to extend spotDL by automatically importing your downloads into Apple Music and syncing them to your iPhone whenever it's connected.
+Thus, I stiched together this tool that uses [spotDL](https://github.com/spotDL/spotify-downloader)—which handles the heavy lifting of finding tracks, downloading audio, and embedding clean metadata (e.g., album art, artist info; instead of a plain `.mp3` file)—and just automates the final step of getting those files into the Apple Music ecosystem and onto an iPhone.
 
 > 📣 Please remember that if you enjoy an artist's work, **support them directly** where you can—buy their album, go to a show, or get their merch. This tool is for appreciating music you already care about, not replacing the support artists deserve...
-
-
-Lately, I've been on—somewhat—of a digital cleanse. I want to use technology more intentionally. This tool is built around that idea and the music I consume.
-
-With all the music in the world instantly available on streaming services, music has started to feel a bit like McDonald's for me. I miss having a library that felt like my own curated collection instead of the work of an algorithm. With the resurgence of older—offline—tech like the iPod or wired earphones, I'm sure many people feel the same way...
-
-Thus, I stiched together this tool that uses [spotify-downloader](https://github.com/spotDL/spotify-downloader)—which handles the heavy lifting of finding tracks, downloading audio, and embedding clean metadata (e.g., album art, artist info, instead of a plain `.mp3` file)—and just automates the final step of getting those files into the Apple Music ecosystem and onto an iPhone.
  
 ## ⚙️ Setup
  
@@ -144,21 +138,6 @@ source ~/.zshrc
  
 
 ## ▶️ Usage
- 
-### Single track by Spotify URL
- 
-```bash
-spotdl-to-iphone https://open.spotify.com/track/...
-```
- 
-### Single track by search term
- 
-```bash
-spotdl-to-iphone "artist name - song title"
-```
- 
-### Multiple tracks in one command
- 
 ```bash
 spotdl-to-iphone \
   "https://open.spotify.com/track/..." \
@@ -217,7 +196,7 @@ Spotify URL(s) / Search Term(s)
          (mutagen)
    ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
        spotDL's job ends here
-       this script takes over
+       this tool takes over
    ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
                │
                ▼
