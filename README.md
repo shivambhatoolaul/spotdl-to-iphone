@@ -17,7 +17,7 @@ Thus, I stiched together this tool that uses [spotDL](https://github.com/spotDL/
 5. Open the **Music** tab and enable **Sync music onto [your iPhone]**,
 6. Select **Sync: Entire music library**.
 
-After this, any time your iPhone is connected and the Music app is open, newly added tracks will sync automatically!
+After this, any time your iPhone is connected and the Music app is open, newly added tracks _should_ sync automatically! But, in case it bugs out, just sync manually...
  
 ---
  
